@@ -1,17 +1,17 @@
 # Google-Sitemap-Generator
 
-- Auto Crawl
-- Ignore broken links (404 error responce)
-- Ignore ```mailto:// ``` links
-- Ignore ```nofollow``` and ```noindex``` pages
-- Manual ignore list
-- Manual allowed extentions
-- Custom user agent
-- Custom save path
-- SEO optimized
-- Complies with all requirements of the Sitemap standard 
-- Easy to use
-- Cron friendly
+- [x] Auto Crawl
+- [x] Ignore broken links (404 error response)
+- [x] Ignore ```mailto:// ``` links
+- [x] Ignore ```nofollow``` and ```noindex``` pages
+- [x] Ignore urls list
+- [x] Checking allowed extensions
+- [x] Custom user agent
+- [x] Custom save path
+- [x] SEO optimized
+- [x] Complies with all requirements of the Sitemap standard 
+- [x] Easy to use
+- [x] Cron friendly
 
 # Examples!
 
@@ -47,7 +47,7 @@ Requires [PHP](https://secure.php.net/) v5.3+
 No dependencies are needed.
 - Upload `sitemap.php` to your server
 - Create new php file or add to existing one
-- Include class and use it like in exaples above
+- Include class and use it like in examples above
 
 ### Development
 
