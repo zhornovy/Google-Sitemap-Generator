@@ -4,7 +4,7 @@
 - [x] Ignore broken links (404 error response)
 - [x] Ignore ```mailto:// ``` links
 - [x] Ignore ```nofollow``` and ```noindex``` pages
-- [x] Ignore urls list
+- [x] Ignore URLs list
 - [x] Checking allowed extensions
 - [x] Custom user agent
 - [x] Custom save path
@@ -27,7 +27,7 @@ include "sitemap.php"
 $xml_new = new SiteMapXML('yourwebsite.com','https');
 $xml_new->makeXML();
 ```
-- Advanded
+- Advanced
 ```php
 include "sitemap.php"
 $xml_new = new SiteMapXML('www.yourwebsite.com', 'https', '/home/user/public_html/sitemap_folder');
